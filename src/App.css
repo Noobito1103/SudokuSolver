@@ -1,0 +1,13 @@
+.container{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin: 20px;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        transform: scale(0.8);
+    }
+}
